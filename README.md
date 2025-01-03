@@ -11,9 +11,7 @@ Cognition Music Theory Visualization  built on JUCE
 ```
 ~ git clone --recurse-submodules -j8 git@github.com:stubbulon5/CognitionJUCE.git
 ~ cd CognitionJUCE
-~ mkdir build_debug && cd build_debug
-~ cmake .. && cmake --build . --config Debug
-
+~ ./build.sh
 
 ~ Todo 
 - research difference between a debug/release build
@@ -31,19 +29,6 @@ To pull the latest, incl. JUCE, run :
 ```
 git pull --recurse-submodules
 ```
-
-
-
-
-Name: C/C++
-Id: ms-vscode.cpptools
-Description: C/C++ IntelliSense, debugging, and code browsing.
-Version: 1.22.11
-Publisher: Microsoft
-VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools
-
-
-
 
 
 <details>
